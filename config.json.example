@@ -1,0 +1,7 @@
+{
+    "mongo_host": "www.example.com",
+    "mongo_user": "MongoUser",
+    "mongo_pass": "C0mpl3xP4ssw0rd",
+    "mongo_db": "deetector",
+    "mongo_options": "?authSource=deetector"
+}

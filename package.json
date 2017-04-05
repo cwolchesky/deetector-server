@@ -1,0 +1,19 @@
+{
+  "name": "deetector-api",
+  "version": "0.0.1",
+  "description": "Server-side API for deetector",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chris Wolchesky",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
+  }
+}
