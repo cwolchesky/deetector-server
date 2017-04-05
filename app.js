@@ -92,6 +92,6 @@ app.post('/status', function(req, res) {
   });
 });
 
-app.listen(2017, function() {
-  console.log("Listenening on port 2017.");
+app.listen(config.listen_port, function() {
+  console.log("Listenening on port " + config.listen_port + ".");
 });
